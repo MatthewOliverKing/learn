@@ -14,7 +14,8 @@ of systems are given. These criteria and the corresponding algorithms for constr
 supporting set of solutions can be used in solving all the considered types systems and systems of mixed types."""
 
 
-text = "Put the lime in the coconut and mix it all up"
+# text = "Put the lime in the coconut and mix it all up"
+
 # load a spaCy model, depending on language, scale, etc.
 nlp = spacy.load("en_core_web_sm")
 # add PyTextRank to the spaCy pipeline
